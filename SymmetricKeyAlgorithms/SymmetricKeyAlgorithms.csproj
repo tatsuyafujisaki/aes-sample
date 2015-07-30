@@ -7,8 +7,8 @@
     <ProjectGuid>{5675DD7B-98B7-4048-BA05-080F48307A7F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SymmetricKeyAlgorithmTutorial</RootNamespace>
-    <AssemblyName>SymmetricKeyAlgorithmTutorial</AssemblyName>
+    <RootNamespace>SymmetricKeyAlgorithms</RootNamespace>
+    <AssemblyName>SymmetricKeyAlgorithms</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

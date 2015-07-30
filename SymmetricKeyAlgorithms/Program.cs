@@ -9,7 +9,7 @@ namespace SymmetricKeyAlgorithms
     {
         static string Encrypt(SymmetricAlgorithm aes, string s)
         {
-            using (var ms = new MemoryStream())
+            var ms = new MemoryStream();
             using (var cs = new CryptoStream(ms, aes.CreateEncryptor(aes.Key, aes.IV), CryptoStreamMode.Write))
             {
                 var bytes = Encoding.ASCII.GetBytes(s);
@@ -21,7 +21,7 @@ namespace SymmetricKeyAlgorithms
 
         static string Decrypt(SymmetricAlgorithm aes, string encrypted)
         {
-            using (var ms = new MemoryStream())
+            var ms = new MemoryStream();
             using (var cs = new CryptoStream(ms, aes.CreateDecryptor(aes.Key, aes.IV), CryptoStreamMode.Write))
             {
                 var bytes = Convert.FromBase64String(encrypted);
