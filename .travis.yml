@@ -1,4 +1,0 @@
-language: csharp
-solution: SymmetricKeyAlgorithms.sln
-notifications:
-  email: false
