@@ -57,8 +57,8 @@ namespace SymmetricKeyAlgorithms
                 decrypted = Decrypt(aes, encrypted);
             }
 
-            Console.WriteLine("Encrypted: {0}", encrypted);
-            Console.WriteLine("Decrypted: {0}", decrypted);
+            Console.WriteLine($"Encrypted: {encrypted}");
+            Console.WriteLine($"Decrypted: {decrypted}");
         }
     }
 }
