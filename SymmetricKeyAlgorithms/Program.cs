@@ -44,13 +44,12 @@ namespace SymmetricKeyAlgorithms
             string encrypted;
             string decrypted;
 
-            // AesCryptoServiceProvider below can be replaced with ...
+            // AesCryptoServiceProvider below can be replaced by:
             // RijndaelManaged
             // DESCryptoServiceProvider
             // RC2CryptoServiceProvider
             // TripleDESCryptoServiceProvider
             // https://msdn.microsoft.com/en-us/library/system.security.cryptography.symmetricalgorithm.aspx
-
             using (var aes = new AesCryptoServiceProvider())
             {
                 encrypted = Encrypt(aes, original);
