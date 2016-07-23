@@ -6,10 +6,10 @@ using System.Text;
 
 namespace SymmetricKeyAlgorithms
 {
-    internal static class Program
+    static class Program
     {
         [SuppressMessage("Microsoft.Usage", "CA2202")]
-        private static string Encrypt(SymmetricAlgorithm sa, string s)
+        static string Encrypt(SymmetricAlgorithm sa, string s)
         {
             using (var ms = new MemoryStream())
             {
@@ -24,7 +24,7 @@ namespace SymmetricKeyAlgorithms
         }
 
         [SuppressMessage("Microsoft.Usage", "CA2202")]
-        private static string Decrypt(SymmetricAlgorithm sa, string encrypted)
+        static string Decrypt(SymmetricAlgorithm sa, string encrypted)
         {
             using (var ms = new MemoryStream())
             {
@@ -38,7 +38,7 @@ namespace SymmetricKeyAlgorithms
             }
         }
 
-        private static void Main()
+        static void Main()
         {
             const string original = "Here comes a string to encrypt.";
             string encrypted;
