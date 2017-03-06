@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/ea2i5dbutt4nh2wx?svg=true)](https://ci.appveyor.com/project/tatsuya/symmetric-key-algorithms)
+[![Build status](https://ci.appveyor.com/api/projects/status/t5dxvfd5lb25bwo6?svg=true)](https://ci.appveyor.com/project/tatsuya/aes-sample)
