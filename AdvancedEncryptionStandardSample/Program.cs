@@ -44,7 +44,6 @@ namespace AdvancedEncryptionStandardSample
             string encrypted;
             string decrypted;
 
-
             // https://msdn.microsoft.com/en-us/library/system.security.cryptography.symmetricalgorithm.aspx
             using (var acsp = new AesCryptoServiceProvider())
             {
